@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{407997CF-72FA-412E-A7E9-7B72F9833A92}">
+	<children>
+		<child name="Aps_Task" key="{391676F4-87DA-4D0D-BF83-4556EF7DC2BC}" path="Aps_Task\Aps_Task.mds" />
+	</children>
+	<testItems key="{A4FC8FE1-74CB-47C8-8EA9-72674949FB04}">
+		<children>
+			<testItem key="{391676F4-87DA-4D0D-BF83-4556EF7DC2BC}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{5496B005-DE65-4A6C-86E6-1D86DB9E49A3}" />
+	<analysis key="{19091CDF-59F8-4DE3-80F8-33043295433B}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

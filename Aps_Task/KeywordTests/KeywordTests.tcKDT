@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login" key="{530C6878-5CF2-4138-B94A-3AF7269A9949}" path="Login.tcKDTest" />
+		<child name="Search_product" key="{4FC60B22-CEC9-4A4E-84E2-5AEACBF27174}" path="Search_product.tcKDTest" />
+		<child name="Cart" key="{9B7B673F-05DA-4E88-A7D5-3819A60F8058}" path="Cart.tcKDTest" />
+		<child name="Checkout_Address_Exist" key="{3230D241-E02B-4E44-8B3B-3FC8EC3D3401}" path="Checkout_Address_Exist.tcKDTest" />
+		<child name="About" key="{B34F5A22-EE90-48A5-A8C3-04AA9F592316}" path="About.tcKDTest" />
+		<child name="Shop_By_Merchant" key="{901538B3-7432-49AF-8FEA-8B6E57772D28}" path="Shop_By_Merchant.tcKDTest" />
+		<child name="test" key="{478EFADE-454C-4A74-99BD-5F5B918ED34F}" path="test.tcKDTest" />
+		<child name="Delete_Cart_Item" key="{A865CF07-D434-4256-994B-42DC8F66A4E1}" path="Delete_Cart_Item.tcKDTest" />
+		<child name="Logout" key="{BD9C47C6-613A-464D-B3BE-E8AF68172BF6}" path="Logout.tcKDTest" />
+		<child name="Buy_Give_Voucher" key="{1854E12F-7937-44FE-8731-B1DA0A53B129}" path="Buy_Give_Voucher.tcKDTest" />
+		<child name="View_Brand" key="{AA3C5CD9-DBB1-47BE-B805-4C401CA5ABD0}" path="View_Brand.tcKDTest" />
+	</children>
+</Root>

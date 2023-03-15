@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{391676F4-87DA-4D0D-BF83-4556EF7DC2BC}"/>
+			</Node>
+			<Node name="{391676f4-87da-4d0d-bf83-4556ef7dc2bc}">
+				<Prp name="relpath" type="S" value="MarkLearning\Aps_Task.mds.tcLS"/>
+			</Node>
+			<Node name="{8fca9a62-5e12-4fb5-8c67-eaf5be63550d}">
+				<Prp name="relpath" type="S" value="MarkLearning\MarkLearning.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{7B6DF5A3-0664-4825-9EF9-5C07050CAA85}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{72410576-6336-4B41-985D-67B2E8E141F3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="brave" Key="{CC2339E9-804E-487E-B80A-B272D27FABF7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="brave" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{61BB4AB7-ECD1-4AE5-85E1-16CA61D78242}">
+								<Image FileName="-83007412" Left="-9" Top="-9" Right="1927" Bottom="1087" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Lava.mt: Malta’s Largest Online Marketplace - Brave" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{4B5488FC-9121-459F-97D1-2A200A29D6C7}">
+										<Image FileName="-83007412" Left="-1" Top="66" Right="1919" Bottom="1013" />
+										<TypeInfo Item0="{E935B04D-AF48-464F-B30D-0CDF85A65A26}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_12" Key="{D7C066F7-2072-4CD8-97A8-6C11702A580C}">
+								<Image FileName="-656721052" Left="0" Top="0" Right="334" Bottom="274" />
+								<TypeInfo Item0="{6686FFC3-BF6A-4CC6-92E6-0A93BD94D622}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save password?" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_13" Key="{AB58AA19-EAA3-4B13-BFBE-AD440E90D2B6}">
+								<Image FileName="-775623153" Left="0" Top="0" Right="188" Bottom="64" />
+								<TypeInfo Item0="{6686FFC3-BF6A-4CC6-92E6-0A93BD94D622}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{265591CC-0433-4710-9EF3-409DC7B4EE28}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndApplicationFrameWindow" Key="{E1065306-12D2-4DDE-894E-8B526495399D}">
+								<TypeInfo Item0="{D26654BB-63DF-493E-8691-35093CC13E06}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="49006E0062006F00780020002D00200047006D00610069006C0020000E202D0020004D00610069006C00" Type="7" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Mail" Key="{367C6E4B-D8B9-4C63-8727-02AEA1B3B004}">
+										<Image FileName="2007308398" Left="9" Top="1" Right="1289" Bottom="1001" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Windows.UI.Core.CoreWindow" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="window" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Mail" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Silhouette" Key="{131EC3E0-CACA-453B-8D10-00F083C31D64}">
+												<Image FileName="2007308398" Left="9" Top="1" Right="1289" Bottom="1001" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Silhouette" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MainAppPage" Key="{878F5255-D44A-4A3C-88D6-86BA229C7B16}">
+														<Image FileName="2007308398" Left="9" Top="1" Right="1289" Bottom="1001" />
+														<TypeInfo Item0="{7931E210-7A06-4ED8-A510-AA8FA0EBBE02}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="AppPage" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="MainAppPage" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndSettings" Key="{00AC9DF4-D5D8-4292-B61A-2460381EBFC9}">
+								<Image FileName="-201949747" Left="-9" Top="-9" Right="1929" Bottom="1089" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Settings" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Ssms" Key="{5B763BF1-C1E0-4CC4-A541-6B3D993C6DD7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Ssms" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{CE246A88-D814-49D6-B32E-C39E61C15D8C}">
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="GenericPane" Key="{1CC36664-23BE-407B-BCCE-330E8BBA76BF}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="GenericPane" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="EC2AMAZ-KK4NNEJ.OnPremiseDb - dbo.ONPREMISE_MERCHANT_WALLET" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSPaneWindow" Key="{47438098-2788-4A2B-A01D-34E0730198B8}">
+												<TypeInfo Item0="{E935B04D-AF48-464F-B30D-0CDF85A65A26}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSPaneWindow" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="WindowsForms10Window8app03be677ar37ad1" Key="{DD25DB87-286F-4445-B139-349541B6D5E1}">
+														<Image FileName="-1195785466" Left="518" Top="163" Right="1912" Bottom="599" />
+														<TypeInfo Item0="{E935B04D-AF48-464F-B30D-0CDF85A65A26}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="WindowsForms10.Window.8.app.0.3be677a_r37_ad1" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Query Criteria Pane" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{137D8903-A483-438B-909D-C93EC176B4BB}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{629D5695-D9B3-4BAD-889F-97532FC0B4C8}">
+								<Image FileName="-342826281" Left="0" Top="0" Right="1940" Bottom="1100" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLavaMtMaltaSLargestOnlineMar" Key="{241B0409-4D64-48DC-9D98-D91BBD574F93}">
+								<Image FileName="-342826281" Left="9" Top="140" Right="1931" Bottom="1092" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://lava.mt/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{812F7A9D-AE83-4708-834B-EEF46C5B7D66}">
+										<Image FileName="-342826281" Left="9" Top="140" Right="1911" Bottom="341" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(., &apos;0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;site-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxSearchInput1" Key="{88DACD7B-76CF-426A-81C6-D6094ADD40D0}">
+										<Image FileName="-342826281" Left="438" Top="164" Right="1295" Bottom="217" />
+										<TypeInfo Item0="{4F279B4B-F7EB-43C8-8BBA-DC0FE5679434}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;orig&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProduct" Key="{0CC96B7B-869D-459C-BAB4-42BF4D68E1AC}">
+										<Image FileName="1493608327" Left="542" Top="339" Right="1325" Bottom="364" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Bomann Microwave Mw6014Cb 700W Whi -&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//h3/a[contains(@class, &apos;asp_res_url&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//div/h3/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{45F3DCEE-7C8F-4517-BF40-1801D2945EF9}">
+										<Image FileName="1493608327" Left="431" Top="326" Right="1339" Bottom="444" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//h3/a/span[contains(@class, &apos;overlap&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{3DBA9205-E843-4EAA-BF4D-BF414B54F730}">
+										<Image FileName="-1196192018" Left="1318" Top="166" Right="1346" Bottom="216" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ajaxsearchpro1_1&apos;]//div/div/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{84B857C1-B085-4FE9-9CD7-B0498EAF7B63}">
+										<Image FileName="203576255" Left="148" Top="436" Right="1773" Bottom="6460" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Bomann Microwave Mw6014Cb 700W Whi&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;products&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{80CFE52B-BE28-49F0-B0AB-F990651B5071}">
+										<Image FileName="203576255" Left="148" Top="474" Right="532" Bottom="955" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Bomann Microwave Mw6014Cb 700W Whi&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;post-100806&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProduct2" Key="{F21C4162-8C05-410A-9125-4D04345F73A5}">
+										<Image FileName="203576255" Left="154" Top="480" Right="526" Bottom="949" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Bomann Microwave Mw6014Cb 700W Whi&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;woocommerce-LoopProduct-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="image06" Key="{B91962F1-A221-4C78-AB21-B1709302C7D7}">
+										<Image FileName="203576255" Left="172" Top="498" Right="507" Bottom="833" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li/a//picture/img[contains(@src, &apos;06&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;product&apos;)]//picture/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/picture/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogInRegister" Key="{051C300B-70A7-4346-A87C-6FE6DD51FD15}">
+										<Image FileName="-1388193519" Left="1537" Top="269" Right="1773" Bottom="326" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log In / Register&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;login-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogInRegister" Key="{5130121E-A78A-4720-86E2-BA93347BEFF1}">
+										<Image FileName="-1388193519" Left="1538" Top="270" Right="1771" Bottom="324" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(., &apos;Log In / Register&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;text-wrap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmailAddress" Key="{764E868F-76BE-4A82-A57E-FD0A61AD0DFE}">
+										<Image FileName="-418294082" Left="696" Top="607" Right="1246" Bottom="785" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;yith-welrp-form&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{31E0F633-C412-4524-9384-42ADE27DC552}">
+										<Image FileName="-418294082" Left="696" Top="643" Right="1246" Bottom="699" />
+										<TypeInfo Item0="{4F279B4B-F7EB-43C8-8BBA-DC0FE5679434}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address:&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#user_login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;user_login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{2EA884D7-96BD-425D-B585-80CE47BF5FA9}">
+										<Image FileName="-1281908073" Left="696" Top="724" Right="1246" Bottom="785" />
+										<TypeInfo Item0="{6A2CF9AE-543A-46F8-BE20-94EE3E149DC5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;yith-welrp-submit-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formPassword" Key="{6CC11197-1D1F-42D7-A631-CA9F6CD3F7EF}">
+										<Image FileName="145687158" Left="685" Top="663" Right="1235" Bottom="896" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Password:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;yith-welrp-form&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{77316CC4-A499-413D-B52D-5AA9B4D7C746}">
+										<Image FileName="145687158" Left="685" Top="699" Right="1235" Bottom="755" />
+										<TypeInfo Item0="{4F279B4B-F7EB-43C8-8BBA-DC0FE5679434}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Password:&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#user_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;user_password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/p/label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{2BC299E8-05F9-4761-85F5-5C88E5839469}">
+										<Image FileName="-1612662639" Left="685" Top="835" Right="1235" Bottom="896" />
+										<TypeInfo Item0="{6A2CF9AE-543A-46F8-BE20-94EE3E149DC5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;yith-welrp-submit-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyAccount" Key="{72084B0D-93DB-4311-BD88-F003A334FADA}">
+										<Image FileName="718115394" Left="1573" Top="269" Right="1772" Bottom="326" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;login-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount" Key="{1008DA18-349C-4036-B9C0-B2AD7D15CD4B}">
+										<Image FileName="718115394" Left="1575" Top="270" Right="1772" Bottom="324" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;text-wrap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]/div/div/div//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount2" Key="{99989FAC-970E-49C9-84F4-F40482D4DE2A}">
+										<Image FileName="-1064619794" Left="1636" Top="284" Right="1746" Bottom="308" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;My Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;text&apos;)]/span[contains(@class, &apos;text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div/a/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{1800336E-DAC7-420C-AF20-B932C9C0B491}">
+										<Image FileName="-801712918" Left="1321" Top="180" Right="1343" Bottom="202" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ajaxsearchpro1_1&apos;]//div/div/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ajaxsearchpro1_1&apos;]//div//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{9F69C594-BABA-4726-8E28-D09427F2A260}">
+										<Image FileName="-1371298931" Left="148" Top="436" Right="1773" Bottom="7169" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Garmin Vivoactive 4s 40mm Dust Rose with Light Gold Hardware&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;products&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{E3473B7A-030A-4C51-9521-20688187901B}">
+										<Image FileName="-1371298931" Left="561" Top="474" Right="945" Bottom="1000" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Earn 758 points&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;post-419041&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAppleWatchSe2Gps44mmStarl" Key="{B1A0D69B-731B-4FFC-A696-05BEAFCB67BB}">
+										<Image FileName="-1371298931" Left="567" Top="480" Right="939" Bottom="994" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Earn 758 points&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;woocommerce-LoopProduct-link&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageAppleWatchSe2Gps44mm300x3" Key="{4A7A0BDC-8504-4109-AE71-EEC26B3E65FF}">
+										<Image FileName="-1371298931" Left="586" Top="498" Right="921" Bottom="833" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;Apple-Watch-SE-2-GPS-44mm--300x300.jpg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;apple-watch-se-2-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-regular&apos;)]//picture/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[2]/a//picture/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formQuantity" Key="{4EB61832-2D15-4091-8449-9EA80A2279BE}">
+										<Image FileName="-630680727" Left="979" Top="988" Right="1773" Bottom="1076" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Quantity&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/form[contains(@action, &apos;apple-watch-se-2-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-regular&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;cart&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToCart" Key="{4636795E-19F8-4E0B-B692-2BB7A2474FFB}">
+										<Image FileName="-630680727" Left="1424" Top="988" Right="1663" Bottom="1051" />
+										<TypeInfo Item0="{6A2CF9AE-543A-46F8-BE20-94EE3E149DC5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;add-to-cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;419041&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;single_add_to_cart_button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode7" Key="{58BB18D1-151A-4886-AA17-021B08FBA564}">
+										<Image FileName="8542227" Left="979" Top="667" Right="1773" Bottom="751" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;product_title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMinicart" Key="{FEFF6BBA-8CB5-4B0E-9A4B-D6544F93E027}">
+										<Image FileName="1039658270" Left="1627" Top="163" Right="1773" Bottom="232" />
+										<Selectors>
+											<Selector>
+												<Value Value="#minicart" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/a[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode8" Key="{AF3FAF55-33E9-45C3-9273-9B23495D2F35}">
+										<Image FileName="1039658270" Left="1627" Top="178" Right="1667" Bottom="223" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[contains(@class, &apos;icon-cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;cart&apos;)]/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;minicart&apos;]/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyCart1" Key="{1DE855EC-0A88-42C5-8A17-56140D6B7115}">
+										<Image FileName="2082068988" Left="9" Top="140" Right="1911" Bottom="1092" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;My Cart (1)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/ul[contains(@class, &apos;dropdown-menu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formMyCart1" Key="{5A0DD3A2-0E6C-4E87-ABEA-7BD6EDEF1EC4}">
+										<Image FileName="2082068988" Left="1336" Top="140" Right="1911" Bottom="699" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;My Cart (1)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;woocommerce-minicart-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewCart" Key="{6C9AB477-C2F7-4A55-BE35-7C6285FA13DE}">
+										<Image FileName="2082068988" Left="1361" Top="209" Right="1886" Bottom="265" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;View Cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyCart" Key="{04124C34-885B-499B-87B8-83D1C4D3A1BD}">
+										<Image FileName="-262748987" Left="148" Top="367" Right="1773" Bottom="426" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;My Cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;woocommerce-page-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCart" Key="{8BFF2B48-FF9E-4CF2-B49F-2AD7A239E8F3}">
+										<Image FileName="-414565497" Left="148" Top="463" Right="1175" Bottom="670" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Earn 758 points&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;woocommerce-cart-form&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{2D1F6FB3-4D5A-4C65-A0E1-15B5D8C6D749}">
+										<Image FileName="-414565497" Left="148" Top="481" Right="730" Bottom="652" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(., &apos;Earn 758 points&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(@class, &apos;product-name&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="BrowserWindow" Key="{5087A16D-EACB-4848-8C0C-541D5C645BE4}">
+										<TypeInfo Item0="{763BE67A-788F-4222-89BD-F3ADE34B3309}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="BrowserWindow" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panelMyCart" Key="{E94A1E17-354E-4B5E-864F-866284CD8B98}">
+										<Image FileName="1260386888" Left="9" Top="336" Right="1911" Bottom="1059" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;content-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHiMarkanthony" Key="{75DFC668-22C1-46E6-B01E-AF51B2E77D47}">
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Hi Markanthony!&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/ul[contains(@class, &apos;dropdown-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyAccount2" Key="{37181F45-1DF3-4443-812A-0FB92461EAF7}">
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;My Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-navigation&apos;]//div/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogInOrRegister" Key="{F16AEFB4-AFF4-4BA8-84CC-8DB0C7FFA94A}">
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;yith-welrp-popup-wrapper-region&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode9" Key="{87A53FA0-43A3-4E98-842D-751BA05693DD}">
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Crown Trade Steracryl Mould Inhibiting Brilliant White Matt 5L&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCheckout" Key="{EC36888B-8603-4E8A-967B-7D4E173F62B2}">
+										<Image FileName="1625553505" Left="148" Top="267" Right="1773" Bottom="1501" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;checkout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Modify My Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;woocommerce-checkout&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreditCardPayments" Key="{738B912B-2BC4-4F4E-811D-26E3FB3B2387}">
+										<Image FileName="463330095" Left="166" Top="458" Right="1212" Bottom="697" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Credit Card Payments&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;wc_payment_methods&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;payment&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[2]//div[3]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetWcDokanStripeConnectCcFo" Key="{BC2C9CD1-FC69-4AC3-B7DD-3B7127E6D52B}">
+										<Image FileName="463330095" Left="186" Top="577" Right="1192" Bottom="657" />
+										<Selectors>
+											<Selector>
+												<Value Value="#wc-dokan-stripe-connect-cc-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;Credit or debit card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset[contains(@class, &apos;wc-credit-card-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dokan-stripe-payment-data&apos;]/fieldset" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//fieldset" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelCreditOrDebitCard" Key="{6FFD68F1-FC03-496F-B1A1-2B9770DE1021}">
+										<Image FileName="463330095" Left="186" Top="577" Right="1192" Bottom="601" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Credit or debit card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset[@id=&apos;wc-dokan-stripe-connect-cc-form&apos;]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeChooseDeliveryOptionsFor" Key="{B1B2EEE3-6A7C-4B18-884D-3599DA9F1439}">
+										<Image FileName="1198918701" Left="166" Top="445" Right="1212" Bottom="500" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Choose delivery options for each merchant&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//h3[contains(@class, &apos;page-heading&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreditCardPayments2" Key="{4403D4CA-8D98-4668-9643-7A57419A70EB}">
+										<Image FileName="-674039081" Left="167" Top="476" Right="1211" Bottom="666" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Credit Card Payments&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;wc_payment_method&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;payment&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[2]//div[3]//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayWithYourCreditCardVia" Key="{AF38DEEF-BAC5-4A1D-869D-10C4576A7746}">
+										<Image FileName="-674039081" Left="186" Top="526" Right="1192" Bottom="550" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Pay with your credit card via Stripe.&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContinue" Key="{465F2C44-6E1B-42BB-A52D-EBAAAE93B0F8}">
+										<Image FileName="1227203409" Left="1269" Top="716" Right="1734" Bottom="779" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[2]//tr/th/div[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/th/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayWithPoints" Key="{5247695C-16B5-4622-B313-B2D741C305C9}">
+										<Image FileName="-2072347027" Left="185" Top="465" Right="1193" Bottom="509" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;Pay with Points&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th/h4[contains(@class, &apos;page-heading&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th/h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProceedToCheckout" Key="{30C66D23-31DE-438C-B27F-C2D2DBA2FEBC}">
+										<Image FileName="-255493441" Left="1370" Top="266" Right="1895" Bottom="322" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Proceed to Checkout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProceedToCheckout2" Key="{3D4E927E-E818-452F-BCFF-2106C39557E9}">
+										<Image FileName="-552471633" Left="1269" Top="818" Right="1734" Bottom="881" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Proceed to checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;checkout-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLavaMtProductOfferBomannMicr" Key="{25FFFDE2-1D0B-4C80-B5D0-AE62658D5A2F}">
+								<Image FileName="-342826281" Left="9" Top="140" Right="1931" Bottom="1092" />
+								<TypeInfo Item0="{C06386EA-ADBE-42DF-9B47-BF7F79366289}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://lava.mt/product/offer-bomann-microwave-mw6014cb-700w-white/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{59AB1E4C-2DD7-4339-AFCC-D260208BD3D4}">
+										<Image FileName="-1793608514" Left="979" Top="556" Right="1773" Bottom="598" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Bomann Microwave Mw6014Cb 700W Whi&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;product_title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{EDB7D0B8-5E2B-4A70-A86C-4FCAA6F4BB36}">
+										<Image FileName="-1949024861" Left="9" Top="140" Right="1911" Bottom="4364" />
+										<TypeInfo Item0="{7A683690-1E3C-432F-A685-73BD8541622E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Cecotec ProClean 9110 Inox Microwave with Grill 30L 1000W Silver&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;product-template-default&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{85DF4CFE-323D-49E7-AFD6-59C848B223DB}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{A2A1A0E3-897C-4220-BE64-75CBB10FD564}">
+								<Image FileName="1899191504" Left="0" Top="0" Right="1920" Bottom="38" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{118FC8E2-B479-40B6-8BB7-FA5EC761BF6B}">
+										<Image FileName="1899191504" Left="366" Top="0" Right="1672" Bottom="38" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{982B8C4D-1A54-4C83-A018-A81A8CE7EBA8}">
+												<Image FileName="1899191504" Left="368" Top="0" Right="1672" Bottom="38" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{694DC4E3-BA52-47AE-AD61-0BC2B8CF6B14}">
+														<Image FileName="1899191504" Left="368" Top="0" Right="1672" Bottom="38" />
+														<TypeInfo Item0="{E935B04D-AF48-464F-B30D-0CDF85A65A26}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Taskmgr" Key="{C59F1B07-DB83-4959-B488-520B9622B850}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Taskmgr" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTaskManagerWindow" Key="{C0F19E92-C9EA-4BB3-9D46-8939205FAEE7}">
+								<TypeInfo Item0="{D26654BB-63DF-493E-8691-35093CC13E06}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskManagerWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Task Manager" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="brave" Owner="{CC2339E9-804E-487E-B80A-B272D27FABF7}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{61BB4AB7-ECD1-4AE5-85E1-16CA61D78242}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{4B5488FC-9121-459F-97D1-2A200A29D6C7}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_12" Owner="{D7C066F7-2072-4CD8-97A8-6C11702A580C}" />
+			<Child Name="wndChrome_WidgetWin_13" Owner="{AB58AA19-EAA3-4B13-BFBE-AD440E90D2B6}" />
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{265591CC-0433-4710-9EF3-409DC7B4EE28}">
+			<Child Name="wndApplicationFrameWindow" Owner="{E1065306-12D2-4DDE-894E-8B526495399D}">
+				<Child Name="Mail" Owner="{367C6E4B-D8B9-4C63-8727-02AEA1B3B004}">
+					<Child Name="Silhouette" Owner="{131EC3E0-CACA-453B-8D10-00F083C31D64}">
+						<Child Name="MainAppPage" Owner="{878F5255-D44A-4A3C-88D6-86BA229C7B16}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndSettings" Owner="{00AC9DF4-D5D8-4292-B61A-2460381EBFC9}" />
+		</Child>
+		<Child Name="Ssms" Owner="{5B763BF1-C1E0-4CC4-A541-6B3D993C6DD7}">
+			<Child Name="HwndSource_MainWindow" Owner="{CE246A88-D814-49D6-B32E-C39E61C15D8C}">
+				<Child Name="GenericPane" Owner="{1CC36664-23BE-407B-BCCE-330E8BBA76BF}">
+					<Child Name="MSPaneWindow" Owner="{47438098-2788-4A2B-A01D-34E0730198B8}">
+						<Child Name="WindowsForms10Window8app03be677ar37ad1" Owner="{DD25DB87-286F-4445-B139-349541B6D5E1}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{137D8903-A483-438B-909D-C93EC176B4BB}">
+			<Child Name="BrowserWindow" Owner="{629D5695-D9B3-4BAD-889F-97532FC0B4C8}" />
+			<Child Name="pageLavaMtMaltaSLargestOnlineMar" Owner="{241B0409-4D64-48DC-9D98-D91BBD574F93}">
+				<Child Name="header" Owner="{812F7A9D-AE83-4708-834B-EEF46C5B7D66}">
+					<Child Name="searchboxSearchInput1" Owner="{88DACD7B-76CF-426A-81C6-D6094ADD40D0}" />
+					<Child Name="vg" Owner="{3DBA9205-E843-4EAA-BF4D-BF414B54F730}" />
+					<Child Name="linkLogInRegister" Owner="{051C300B-70A7-4346-A87C-6FE6DD51FD15}">
+						<Child Name="textnodeLogInRegister" Owner="{5130121E-A78A-4720-86E2-BA93347BEFF1}" />
+					</Child>
+					<Child Name="linkMyAccount" Owner="{72084B0D-93DB-4311-BD88-F003A334FADA}">
+						<Child Name="textnodeMyAccount" Owner="{1008DA18-349C-4036-B9C0-B2AD7D15CD4B}" />
+						<Child Name="textnodeMyAccount2" Owner="{99989FAC-970E-49C9-84F4-F40482D4DE2A}" />
+					</Child>
+					<Child Name="textnode4" Owner="{1800336E-DAC7-420C-AF20-B932C9C0B491}" />
+					<Child Name="linkMinicart" Owner="{FEFF6BBA-8CB5-4B0E-9A4B-D6544F93E027}">
+						<Child Name="textnode8" Owner="{AF3FAF55-33E9-45C3-9273-9B23495D2F35}" />
+					</Child>
+					<Child Name="textnodeMyCart1" Owner="{1DE855EC-0A88-42C5-8A17-56140D6B7115}">
+						<Child Name="formMyCart1" Owner="{5A0DD3A2-0E6C-4E87-ABEA-7BD6EDEF1EC4}">
+							<Child Name="linkViewCart" Owner="{6C9AB477-C2F7-4A55-BE35-7C6285FA13DE}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeHiMarkanthony" Owner="{75DFC668-22C1-46E6-B01E-AF51B2E77D47}">
+						<Child Name="linkMyAccount2" Owner="{37181F45-1DF3-4443-812A-0FB92461EAF7}" />
+					</Child>
+				</Child>
+				<Child Name="linkProduct" Owner="{0CC96B7B-869D-459C-BAB4-42BF4D68E1AC}">
+					<Child Name="textnode" Owner="{45F3DCEE-7C8F-4517-BF40-1801D2945EF9}" />
+				</Child>
+				<Child Name="textnode2" Owner="{84B857C1-B085-4FE9-9CD7-B0498EAF7B63}">
+					<Child Name="textnode3" Owner="{80CFE52B-BE28-49F0-B0AB-F990651B5071}">
+						<Child Name="linkProduct2" Owner="{F21C4162-8C05-410A-9125-4D04345F73A5}">
+							<Child Name="image06" Owner="{B91962F1-A221-4C78-AB21-B1709302C7D7}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formEmailAddress" Owner="{764E868F-76BE-4A82-A57E-FD0A61AD0DFE}">
+					<Child Name="textboxEmailAddress" Owner="{31E0F633-C412-4524-9384-42ADE27DC552}" />
+					<Child Name="buttonContinue" Owner="{2EA884D7-96BD-425D-B585-80CE47BF5FA9}" />
+				</Child>
+				<Child Name="formPassword" Owner="{6CC11197-1D1F-42D7-A631-CA9F6CD3F7EF}">
+					<Child Name="passwordboxPassword" Owner="{77316CC4-A499-413D-B52D-5AA9B4D7C746}" />
+					<Child Name="buttonSignIn" Owner="{2BC299E8-05F9-4761-85F5-5C88E5839469}" />
+				</Child>
+				<Child Name="textnode5" Owner="{9F69C594-BABA-4726-8E28-D09427F2A260}">
+					<Child Name="textnode6" Owner="{E3473B7A-030A-4C51-9521-20688187901B}">
+						<Child Name="linkAppleWatchSe2Gps44mmStarl" Owner="{B1A0D69B-731B-4FFC-A696-05BEAFCB67BB}">
+							<Child Name="imageAppleWatchSe2Gps44mm300x3" Owner="{4A7A0BDC-8504-4109-AE71-EEC26B3E65FF}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formQuantity" Owner="{4EB61832-2D15-4091-8449-9EA80A2279BE}">
+					<Child Name="buttonAddToCart" Owner="{4636795E-19F8-4E0B-B692-2BB7A2474FFB}" />
+					<Child Name="linkProceedToCheckout" Owner="{30C66D23-31DE-438C-B27F-C2D2DBA2FEBC}" />
+				</Child>
+				<Child Name="textnode7" Owner="{58BB18D1-151A-4886-AA17-021B08FBA564}" />
+				<Child Name="textnodeMyCart" Owner="{04124C34-885B-499B-87B8-83D1C4D3A1BD}" />
+				<Child Name="formCart" Owner="{8BFF2B48-FF9E-4CF2-B49F-2AD7A239E8F3}">
+					<Child Name="cell" Owner="{2D1F6FB3-4D5A-4C65-A0E1-15B5D8C6D749}" />
+				</Child>
+				<Child Name="BrowserWindow" Owner="{5087A16D-EACB-4848-8C0C-541D5C645BE4}" />
+				<Child Name="panelMyCart" Owner="{E94A1E17-354E-4B5E-864F-866284CD8B98}" />
+				<Child Name="panelLogInOrRegister" Owner="{F16AEFB4-AFF4-4BA8-84CC-8DB0C7FFA94A}" />
+				<Child Name="textnode9" Owner="{87A53FA0-43A3-4E98-842D-751BA05693DD}" />
+				<Child Name="formCheckout" Owner="{EC36888B-8603-4E8A-967B-7D4E173F62B2}">
+					<Child Name="textnodeCreditCardPayments" Owner="{738B912B-2BC4-4F4E-811D-26E3FB3B2387}">
+						<Child Name="fieldsetWcDokanStripeConnectCcFo" Owner="{BC2C9CD1-FC69-4AC3-B7DD-3B7127E6D52B}">
+							<Child Name="labelCreditOrDebitCard" Owner="{6FFD68F1-FC03-496F-B1A1-2B9770DE1021}" />
+						</Child>
+						<Child Name="textnodeCreditCardPayments2" Owner="{4403D4CA-8D98-4668-9643-7A57419A70EB}">
+							<Child Name="textnodePayWithYourCreditCardVia" Owner="{AF38DEEF-BAC5-4A1D-869D-10C4576A7746}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeChooseDeliveryOptionsFor" Owner="{B1B2EEE3-6A7C-4B18-884D-3599DA9F1439}" />
+					<Child Name="panelContinue" Owner="{465F2C44-6E1B-42BB-A52D-EBAAAE93B0F8}" />
+					<Child Name="textnodePayWithPoints" Owner="{5247695C-16B5-4622-B313-B2D741C305C9}" />
+				</Child>
+				<Child Name="linkProceedToCheckout2" Owner="{3D4E927E-E818-452F-BCFF-2106C39557E9}" />
+			</Child>
+			<Child Name="pageLavaMtProductOfferBomannMicr" Owner="{25FFFDE2-1D0B-4C80-B5D0-AE62658D5A2F}">
+				<Child Name="textnode" Owner="{59AB1E4C-2DD7-4339-AFCC-D260208BD3D4}" />
+				<Child Name="textnode2" Owner="{EDB7D0B8-5E2B-4A70-A86C-4FCAA6F4BB36}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{85DF4CFE-323D-49E7-AFD6-59C848B223DB}">
+			<Child Name="wndShell_TrayWnd" Owner="{A2A1A0E3-897C-4220-BE64-75CBB10FD564}">
+				<Child Name="ReBarWindow32" Owner="{118FC8E2-B479-40B6-8BB7-FA5EC761BF6B}">
+					<Child Name="MSTaskSwWClass" Owner="{982B8C4D-1A54-4C83-A018-A81A8CE7EBA8}">
+						<Child Name="MSTaskListWClass" Owner="{694DC4E3-BA52-47AE-AD61-0BC2B8CF6B14}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Taskmgr" Owner="{C59F1B07-DB83-4959-B488-520B9622B850}">
+			<Child Name="wndTaskManagerWindow" Owner="{C0F19E92-C9EA-4BB3-9D46-8939205FAEE7}" />
+		</Child>
+	</LogicalNodes>
+</Root>

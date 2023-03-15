@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Check_Cart_Count" key="{AC5BF06A-9EC4-4F13-B29A-5ED3C97019B7}" path="Check_Cart_Count.js" />
+		<child name="Login" key="{0D145B6E-D729-49D0-BB5E-4094A4948376}" path="Login.js" />
+		<child name="Search_product" key="{86609CD2-12E6-4BEF-91DB-666192869D42}" path="Search_product.js" />
+		<child name="Cart" key="{0C27CDEE-4E3F-461C-A30F-6976E080ED91}" path="Cart.js" />
+		<child name="Checkout_Address_Exist" key="{F96561C0-0B4B-4807-B4C2-401E4D8F4ABC}" path="Checkout_Address_Exist.js" />
+		<child name="Checkout_New_Address" key="{133D6E14-8C09-46AC-9CA6-DB5F349008B6}" path="Checkout_New_Address.js" />
+		<child name="AboutPage" key="{76AF5CF6-A4C4-4B44-861E-A66C12D23850}" path="AboutPage.js" />
+		<child name="Increament_Item" key="{9A8C0AE0-DD30-4395-B728-2CEB7757A155}" path="Increament_Item.js" />
+		<child name="Shop_By_Merchant" key="{DCA13B49-2907-45AF-A6DC-D87F3A77001C}" path="Shop_By_Merchant.js" />
+		<child name="Logout" key="{7FEBF7BE-C41F-454A-83B0-6C10188666C7}" path="Logout.js" />
+		<child name="Buy_Give_Voucher" key="{E30AB170-6615-4F1D-902B-4D3E343F4DDD}" path="Buy_Give_Voucher.js" />
+		<child name="View_Brand" key="{95DBBAA8-50BB-49CD-8BFD-D509A3004413}" path="View_Brand.js" />
+	</children>
+</Root>

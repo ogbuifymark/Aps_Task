@@ -1,0 +1,33 @@
+﻿function Login()
+{
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click();
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click();
+  var TimeoutValue;
+  TimeoutValue = Options.Run.Timeout;
+  Options.Run.Timeout = 30000;
+  //Enters 'ogbuifyma[BS]k@gmail.com' in the 'wndChrome_WidgetWin_1' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Keys("ogbuifyma[BS]k@gmail.com");
+  Options.Run.Timeout = 20000;
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click();
+  //Enters 'Mark09876@' in the 'wndChrome_WidgetWin_1' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Keys("Mark09876@");
+  Options.Run.Timeout = TimeoutValue;
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click(883, 581);
+  OCR.Recognize(Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND).BlockByText("Account").ClickR();
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click(1499, 138);
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click(1493, 138);
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click(1520, 111);
+  //Clicks the 'Chrome_RenderWidgetHostHWND' object.
+  Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Click(1515, 116);
+  //Checks whether the 'Enabled' property of the Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND object equals True.
+  aqObject.CheckProperty(Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND, "Enabled", cmpEqual, true);
+  //Check whether '*My Account*' matches the text optically recognized in the image Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.
+  OCR.Recognize(Aliases.brave.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND).CheckText("My Account");
+}
