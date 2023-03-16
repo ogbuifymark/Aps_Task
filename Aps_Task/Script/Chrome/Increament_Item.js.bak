@@ -1,0 +1,87 @@
+﻿var Login = require("Login");
+function Increament_Item(){
+  
+  //Variable decleration 
+  let initialItems = [];
+  
+  let newItems = Check_Cart_Item(initialItems);
+  initialItems = newItems;
+  Browsers.Item(btChrome).Navigate("https://lava.mt");
+  Aliases.browser.BrowserWindow.Maximize();
+  let browser = Sys.Browser();
+  
+  Browsers.Item(btChrome).Navigate("https://lava.mt/");
+  //Sets the specified position and size for the specific BrowserWindow object.
+  Aliases.browser.BrowserWindow.Maximize();
+  //Clicks the 'searchboxSearchInput1' control.
+  Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.header.searchboxSearchInput1.Click();
+  //Sets the text 'microwave' in the 'searchboxSearchInput1' text editor.
+  Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.header.searchboxSearchInput1.SetText("Watches");
+  //Clicks the 'vg' control.
+  Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.header.vg.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.Wait();
+  //Clicks the 'image06' control.
+  Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.textnode5.textnode6.linkAppleWatchSe2Gps44mmStarl.imageAppleWatchSe2Gps44mm300x3.Click();
+  //Checks whether the 'contentText' property of the Aliases.browser.pageLavaMtProductOfferBomannMicr.textnode object equals 'Bomann Microwave Mw6014Cb 700W Whi'.
+  aqObject.CheckProperty(Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.textnode7, "contentText", cmpContains, "Apple Watch SE 2 GPS 44mm Starlight Aluminium Case with Starlight Sport Band");
+  
+  Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.formQuantity.buttonAddToCart.ClickButton();
+  
+  Log.Message(JSON.stringify(initialItems));
+  const itemCheck = initialItems.filter(p=>p.name.includes("Apple Watch SE 2 GPS 44mm Starlight Aluminium Case with Starlight Sport Band"));
+  if (itemCheck.length > 0){
+    newItems = Check_Cart_Item([]);
+    const sameItem = newItems.filter(p=>p.name.includes("Apple Watch SE 2 GPS 44mm Starlight Aluminium Case with Starlight Sport Band"));
+    Log.Message(sameItem[0].quantity);
+    if (!aqObject.CompareProperty(sameItem[0].quantity, cmpGreater, itemCheck[0].quantity, true, 0)){
+      Log.Error("Quantity increament feature failed");
+    }
+  }
+}
+
+function Check_Cart_Item (items){
+  Browsers.Item(btChrome).Navigate("https://lava.mt");
+  Aliases.browser.BrowserWindow.Maximize();
+  let browser = Sys.Browser();
+  
+  let page = browser.ToUrl("https://lava.mt/cart/");
+  let loginButton = page.NativeWebObject.Find("contentText", "My Account");
+  if (!loginButton.Exists){
+    Login.login();
+    let page = browser.ToUrl("https://lava.mt/cart/");
+  }
+  let table = page.WaitElement("/html/body/div[3]/div/div/div/div/div/div/div[1]/div[3]/form/table"); 
+  
+  
+  if (table.Exists)
+  {
+
+    // Goes through the rows and cells of the table
+    for(let i = 0; i< table.rows.length; i++){
+      if (i > 0){
+           const itemName = table.rows.item(i).cells.item(0).InnerText;
+           Log.Message(itemName);
+           if (table.rows.item(i).cells.item(1) != null){
+             const innerHtml = table.rows.item(i).cells.item(1).InnerHtml;
+           const regex = /value="(\d+)"/;
+            const match = innerHtml.match(regex);
+            let quantity = 0
+
+            if (match) {
+              quantity = match[1];
+            } else {
+              console.log('No match found');
+            }
+           items.push({"name":itemName, "quantity":aqConvert.StrToInt(quantity) });
+           }
+           
+      }
+    } 
+    
+  }
+ 
+  
+return items;
+}
+

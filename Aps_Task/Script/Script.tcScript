@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Check_Cart_Count" key="{AC5BF06A-9EC4-4F13-B29A-5ED3C97019B7}" path="Check_Cart_Count.js" />
-		<child name="Login" key="{0D145B6E-D729-49D0-BB5E-4094A4948376}" path="Login.js" />
-		<child name="Search_product" key="{86609CD2-12E6-4BEF-91DB-666192869D42}" path="Search_product.js" />
-		<child name="Cart" key="{0C27CDEE-4E3F-461C-A30F-6976E080ED91}" path="Cart.js" />
-		<child name="Checkout_Address_Exist" key="{F96561C0-0B4B-4807-B4C2-401E4D8F4ABC}" path="Checkout_Address_Exist.js" />
-		<child name="Checkout_New_Address" key="{133D6E14-8C09-46AC-9CA6-DB5F349008B6}" path="Checkout_New_Address.js" />
-		<child name="AboutPage" key="{76AF5CF6-A4C4-4B44-861E-A66C12D23850}" path="AboutPage.js" />
-		<child name="Increament_Item" key="{9A8C0AE0-DD30-4395-B728-2CEB7757A155}" path="Increament_Item.js" />
-		<child name="Shop_By_Merchant" key="{DCA13B49-2907-45AF-A6DC-D87F3A77001C}" path="Shop_By_Merchant.js" />
-		<child name="Logout" key="{7FEBF7BE-C41F-454A-83B0-6C10188666C7}" path="Logout.js" />
-		<child name="Buy_Give_Voucher" key="{E30AB170-6615-4F1D-902B-4D3E343F4DDD}" path="Buy_Give_Voucher.js" />
-		<child name="View_Brand" key="{95DBBAA8-50BB-49CD-8BFD-D509A3004413}" path="View_Brand.js" />
+		<folder name="Chrome">
+			<child name="AboutPage" key="{76AF5CF6-A4C4-4B44-861E-A66C12D23850}" path="Chrome\AboutPage.js" />
+			<child name="Buy_Give_Voucher" key="{E30AB170-6615-4F1D-902B-4D3E343F4DDD}" path="Chrome\Buy_Give_Voucher.js" />
+			<child name="Cart" key="{0C27CDEE-4E3F-461C-A30F-6976E080ED91}" path="Chrome\Cart.js" />
+			<child name="Check_Cart_Count" key="{AC5BF06A-9EC4-4F13-B29A-5ED3C97019B7}" path="Chrome\Check_Cart_Count.js" />
+			<child name="Checkout_Address_Exist" key="{F96561C0-0B4B-4807-B4C2-401E4D8F4ABC}" path="Chrome\Checkout_Address_Exist.js" />
+			<child name="Checkout_New_Address" key="{133D6E14-8C09-46AC-9CA6-DB5F349008B6}" path="Chrome\Checkout_New_Address.js" />
+			<child name="Increament_Item" key="{9A8C0AE0-DD30-4395-B728-2CEB7757A155}" path="Chrome\Increament_Item.js" />
+			<child name="Login" key="{0D145B6E-D729-49D0-BB5E-4094A4948376}" path="Chrome\Login.js" />
+			<child name="Logout" key="{7FEBF7BE-C41F-454A-83B0-6C10188666C7}" path="Chrome\Logout.js" />
+			<child name="Search_product" key="{86609CD2-12E6-4BEF-91DB-666192869D42}" path="Chrome\Search_product.js" />
+			<child name="Shop_By_Merchant" key="{DCA13B49-2907-45AF-A6DC-D87F3A77001C}" path="Chrome\Shop_By_Merchant.js" />
+			<child name="View_Brand" key="{95DBBAA8-50BB-49CD-8BFD-D509A3004413}" path="Chrome\View_Brand.js" />
+		</folder>
+		<folder name="Edge">
+			<child name="AboutPageEdge" key="{BA271BE4-F08B-49C9-9165-9DAF1FB9BECE}" path="Edge\AboutPageEdge.js" />
+			<child name="Buy_Give_VoucherEdge" key="{93A4B8B3-F906-4408-A0DD-83D3733DE337}" path="Edge\Buy_Give_VoucherEdge.js" />
+			<child name="Cart_Edge" key="{794DA5F7-3441-441C-82B5-02FCECB4A18F}" path="Edge\Cart_Edge.js" />
+			<child name="Check_Cart_Count_Edge" key="{EE2599D8-DFE5-41D7-92C7-BFC998B60880}" path="Edge\Check_Cart_Count_Edge.js" />
+			<child name="Checkout_Address_Exist_Edge" key="{E83192FE-7B73-4846-937B-073A7E25FE83}" path="Edge\Checkout_Address_Exist_Edge.js" />
+			<child name="Checkout_New_Address_edge" key="{3FABB568-2494-4EA0-9081-5B9C0FDAFB91}" path="Edge\Checkout_New_Address_edge.js" />
+			<child name="Increament_Item_Edge" key="{A9F08825-824D-4B81-A896-8F5BC199E613}" path="Edge\Increament_Item_Edge.js" />
+			<child name="Login_Edge" key="{7C812A79-D82C-46CC-B0C7-BB8F4F6FFD0B}" path="Edge\Login_Edge.js" />
+			<child name="Logout_Edge" key="{6DF77E76-66D4-46FD-8C69-A2A42DBA5702}" path="Edge\Logout_Edge.js" />
+			<child name="Search_Product_Edge" key="{9A900083-789B-420F-B62E-21B9DB81A1BF}" path="Edge\Search_Product_Edge.js" />
+			<child name="Shop_By_Merchant_Edge" key="{1A0642D4-9B63-4770-819D-7B946F57F5DD}" path="Edge\Shop_By_Merchant_Edge.js" />
+			<child name="View_Brand_Edge" key="{E241B75E-F052-4FCB-84FD-D5AE409311E3}" path="Edge\View_Brand_Edge.js" />
+		</folder>
+		<child name="test" key="{CF97B479-46A6-4851-BD29-88FE0220C2F5}" path="test.js" />
 	</children>
 </Root>

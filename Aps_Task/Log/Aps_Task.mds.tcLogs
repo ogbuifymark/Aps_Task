@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45001.5360860764"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1A8CC5E4-A1B1-4CA1-992D-728258BBCC10}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Check_Cart_Count_Edge\Check_Cart_Count]"/>
+				<Prp name="relpath" type="S" value="16_03_2023_12_51 pm_57_837\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45001.5367258449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F39F28DA-59D4-4495-8B16-D7AAE213C42C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Checkout_Address_Exist_Edge\Checkout_Address_Exist]"/>
+				<Prp name="relpath" type="S" value="16_03_2023_12_52 pm_53_113\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45001.5390540278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{365791BA-923F-48B1-B4C3-C16D225A3E33}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Increament_Item_Edge\Increament_Item]"/>
+				<Prp name="relpath" type="S" value="16_03_2023_12_56 pm_14_268\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45001.5399477199"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2A6B8F88-F6D1-4C82-9997-ECC1DC14A63A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Logout_Edge\Logout]"/>
+				<Prp name="relpath" type="S" value="16_03_2023_12_57 pm_31_483\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45001.54419375"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{90E4FEA0-4D97-4899-A3C5-12FF82C45E33}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Search_Product_Edge\Search_product]"/>
+				<Prp name="relpath" type="S" value="16_03_2023_1_03 pm_38_340\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45001.544589537"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4927A1CA-8BDA-4CC4-A26C-D298E7208B92}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Shop_By_Merchant_Edge\Shop_By_Merchant]"/>
+				<Prp name="relpath" type="S" value="16_03_2023_1_04 pm_12_536\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

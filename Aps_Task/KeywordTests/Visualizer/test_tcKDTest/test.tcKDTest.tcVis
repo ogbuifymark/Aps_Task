@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{478EFADE-454C-4A74-99BD-5F5B918ED34F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45001.3606018519" objectName="Aliases.explorer.Window(&quot;TaskListThumbnailWnd&quot;)" objectLeft="0" objectTop="0" objectRight="1920" objectBottom="263" clickPointX="386" clickPointY="216" imageFileName="tcvi10967207822760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45001.3606365741" objectName="Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.header.linkMyAccount.textnodeMyAccount" objectLeft="1529" objectTop="218" objectRight="1726" objectBottom="272" clickPointX="1581" clickPointY="239" imageFileName="tcvi109675281277640.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45001.3606828704" objectName="Aliases.browser.pageLavaMtMaltaSLargestOnlineMar.FindElement(&quot;//a[.=&apos;Log Out&apos;]&quot;)" objectLeft="1528" objectTop="433" objectRight="1726" objectBottom="471" clickPointX="1574" clickPointY="447" imageFileName="tcvi109678968277641.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
